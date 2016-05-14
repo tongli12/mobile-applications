@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+<LinearLayout 
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+<TextView android:id="@+id/programDescriptionTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/programDescriptionTitle" 
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView android:id="@+id/programDescription"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/programDescription" 
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+<TextView android:id="@+id/paramsTitle"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/paramsTitle" 
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+<TextView android:id="@+id/helpInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/helpInfo" 
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+</LinearLayout>
+</ScrollView>

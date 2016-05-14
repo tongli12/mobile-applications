@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gene Aligner</string>
+    <string name="sequence1">Sequence 1</string>
+    <string name="sequence2">Sequence 2</string>
+    <string name="substitution_matrix">Substitution Matrix</string>
+
+    <string-array name="matrix_array">
+        <item>NUC4.2</item>
+        <item>NUC4.4</item>
+    </string-array>
+
+    <string name="gap_penalty">10</string>
+    <string name="gap_extension">1</string>
+    <string name="alignment_options">Alignment Type</string>
+
+    <string-array name="alignment_array">
+        <item>Global</item>
+        <item>Local</item>
+    </string-array>
+
+    <string name="button_send">Align Sequences</string>
+    <string name="resultAlign">Alignment Result</string>
+    <string name="btn_return">Start new alignment</string>
+    <string name="programDescriptionTitle">Description</string>
+    <string name="programDescription">This program uses the Needleman–Wunsch and Smith–Waterman algorithms for 
+        pairwise gene global and local alignment, respectively.</string>
+    <string name="paramsTitle">Input Parameters</string>
+    <string name="helpInfo">Sequence 1 and Sequence 2. \nThe sequences can be entered in two different ways.
+        \n1. String of characters. The characters allowed are "A", "T", "C", "G", "N" (ambiguous nucleotide) and "-" (gaps).
+        \nExample: “AAATCGA”.
+        \n2. NCBI accession number. You can enter a DNA sequence by specifying its accession number. Example: “28864546”.
+        \n\nGap Open Penalty (gop). 
+        \nBy default is 10. This value can range from 0 to 20. If gop is set to 0, then the program will be using the linear 
+        gap penalty function, otherwise the program will be using the affine gap penalty function.
+        \n\nGap Extension Penalty (gex). 
+        \nBy default is set to 1. gex can range from 0 to 20. If you use the affine gap penalty function (i.e. gop > 0), then 
+        gex must be less than or equal to gop.</string>
+    <string name="resultDotPlot">Alignment Dot Plot</string>
+    <string name="btn_dotplot">Dot plot for this alignment</string>
+
+</resources>
